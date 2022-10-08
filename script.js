@@ -93,10 +93,9 @@ let laptops = [
 
 let discount = 12
 
-let total = 0
+let total = []
 
 for(let item of laptops) {
-    laptops += item.price
 
     let price = item.price
     price = item.price - (price / 100 * discount)
